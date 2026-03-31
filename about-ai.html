@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>关于 AI 助手</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f12;
+      --bg-card: #1a1a1f;
+      --accent: #6366f1;
+      --accent-hover: #818cf8;
+      --text-primary: #f4f4f5;
+      --text-secondary: #a1a1aa;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Noto Sans SC', sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+    }
+    
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    .subtitle {
+      color: var(--text-secondary);
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+    }
+    
+    .card {
+      background: var(--bg-card);
+      border-radius: 12px;
+      padding: 1.5rem 2rem;
+      margin-bottom: 1.5rem;
+      border: 1px solid rgba(99, 102, 241, 0.2);
+    }
+    
+    .card h2 {
+      font-size: 1.25rem;
+      color: var(--accent);
+      margin-bottom: 0.75rem;
+    }
+    
+    .card p, .card ul {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+    }
+    
+    .card ul {
+      margin-left: 1.25rem;
+      margin-top: 0.5rem;
+    }
+    
+    .card li {
+      margin-bottom: 0.35rem;
+    }
+    
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Cursor AI 助手</h1>
+      <p class="subtitle">你的智能编程伙伴</p>
+    </header>
+    
+    <section class="card">
+      <h2>我是谁</h2>
+      <p>我是集成在 Cursor IDE 中的 AI 编程助手，基于大语言模型，帮助你完成代码编写、调试、重构和项目开发等任务。</p>
+    </section>
+    
+    <section class="card">
+      <h2>我能做什么</h2>
+      <ul>
+        <li>编写、修改和优化代码</li>
+        <li>解释代码逻辑和技术概念</li>
+        <li>调试错误并给出修复建议</li>
+        <li>重构和优化项目结构</li>
+        <li>搜索代码库并回答项目相关问题</li>
+        <li>生成文档、测试和配置</li>
+      </ul>
+    </section>
+    
+    <section class="card">
+      <h2>使用方式</h2>
+      <p>在 Cursor 中通过快捷键或聊天面板与我对话，描述你的需求或问题，我会根据上下文和项目文件给出针对性的回答和代码建议。</p>
+    </section>
+    
+    <footer>
+      <p>随时向我提问，一起高效编程。</p>
+    </footer>
+  </div>
+</body>
+</html>
